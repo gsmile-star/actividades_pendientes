@@ -1,0 +1,103 @@
+
+.color1{
+
+	background-color: white;
+}
+
+.color2{
+
+	background-color: green;
+}
+
+.color3{
+
+	background-color: green;
+}
+
+.color4{
+
+	background-color: #DFF6D8;
+}
+
+.color{
+
+	background-color: silver;
+}
+
+.carousel-inner{
+ 	text-align: center;
+
+
+}
+.carousel .item > img{
+	display: inline-block; 
+	
+
+}
+
+.container{
+
+	border: 1px solid black;
+}
+
+.centrar{
+
+	padding-top: 25px;
+	padding-left: 100px;
+}
+
+.dropdown-menu{
+
+	background-color: #D3D3D3;
+
+}
+
+
+div{
+
+	text-align: left;
+	vertical-align: center;
+}
+
+
+.form-group{
+
+	text-align: center;
+}
+
+
+h1{
+
+	font-size: 4em;
+	text-align: center;
+	vertical-align: center;
+}
+
+.navbar{
+
+	background-color: #DFF6D8;
+	
+}
+
+
+legend{
+
+	text-align: center;
+}
+
+label{
+
+	text-align: center;
+}
+
+
+img{
+
+	align:center;
+}
+
+
+.vorder{
+
+	border-color: 2px solid yellow;
+}

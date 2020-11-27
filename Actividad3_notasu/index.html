@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Ana Milena Gonzalez Silva">
+  
+  <title>UTILIZANDO BOOTSTRAP</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/stilo.css">
+  <!-- jQuery -->
+  <script src="js/jquery-2.1.1.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="js/bootstrap.js"></script>
+  
+</head>
+
+<body>
+
+    <h1>UTILIZACION DE BOOTSTRAP</h1>
+
+  
+    <h2>PROBLEMA 2</h2>
+
+    <H3>Determinar si un alumno aprueba o reprueba un curso, sabiendo que
+      aprobara si su promedio de tres calificaciones es mayor o igual a 70;
+      reprueba en caso contrario.
+    </H3>
+    
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+          
+          <center><img src="img/universidad.jpg" alt="bancoimg" id="img" class="img-responsive"></center>
+        
+        </div>
+      
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-46 ">
+          <center>
+          <h3>BIENVENIDOS SISTEMA DE INFORMACION ACADEMICA-SIA</h3>
+          <h3>A continuacion registre las notas del estudiante: </h3>
+
+          <br>
+          INGRESE NOTA 1: <input id="numero11"><br><br>
+          INGRESE NOTA 2: <input id="numero12"><br><br>
+          INGRESE NOTA 3: <input id="numero13"><br><br>
+          <button type="button" class="boton" onclick="calcular7()" style="background:#98AFF2"><font size=3>CALCULAR</font></button>
+
+          <p id="resultado10"></p>
+          <p id="resultado11"></p>
+          </center>
+        
+        </div>
+      </div>
+
+      
+      
+    
+    </div>
+
+    <script>
+      function calcular7() {
+        var numero11 = document.getElementById("numero11").value;
+        var numero12 = document.getElementById("numero12").value;
+        var numero13 = document.getElementById("numero13").value;
+
+        var promedio = (parseFloat(numero11) + parseFloat(numero12) + parseFloat(numero13)) / 3;
+
+        var text9 = "EL PROMEDIO DE LAS NOTAS ES : " + promedio;
+
+        if (promedio >= 70) {
+          var text10 = " EL ESTUDIANTE A SIDO APROBADO";
+        }
+        if (promedio < 70) {
+          var text10 = "EL ESTUDIANTE A SIDO REPROBADO";
+        }
+
+        document.getElementById("resultado10").innerHTML = text9;
+        document.getElementById("resultado11").innerHTML = text10;
+      }
+
+    </script>
+
+    <script src="js/bootstrap.js"></script>
+
+
+  
+</body>
+
+</html>
