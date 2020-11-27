@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        let acum = 0;
+
+         function add() {
+            acum += 1;
+            document.getElementById("res").innerHTML= acum;
+        }
+
+        function subtract() {
+            acum -= 1;
+            document.getElementById("res").innerHTML= acum;
+            console.log(document.getElementById("res"))
+        }
+    </script>
+
+</head>
+
+<body>
+    <div id="app">
+        <h1>titulo de la pagina</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-title">
+                    <h1 id="res">Aca ira nuestro resultado</h1>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <button class="btn" onclick="subtract()"> - </button>
+                        <button class="btn" onclick="add()"> + </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h1>Aca ira nuestro resultado</h1>
+                </div>
+                <div class="card-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam id eveniet, distinctio quos
+                        debitis earum at necessitatibus tempore, laboriosam adipisci doloribus est non ex quibusdam et
+                        quas dolorem aperiam quaerat.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h1>Aca ira nuestro resultado</h1>
+                </div>
+                <div class="card-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam id eveniet, distinctio quos
+                        debitis earum at necessitatibus tempore, laboriosam adipisci doloribus est non ex quibusdam et
+                        quas dolorem aperiam quaerat.</p>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+</body>
+
+</html>
