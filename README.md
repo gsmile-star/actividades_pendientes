@@ -22,3 +22,5 @@ El proyecto contiene los ejercicios propuestos en clase
 9. [Actividad 9 - app conferencias](http://www.jaymegaviria.com/conferencia/#/)
 
 10. [Actividad 10 - pagina grupal feature](http://www.jaymegaviria.com/pagina_grupal/)
+
+11. [Proyecto final- triqui en javascript](http://www.jaymegaviria.com/Triqui%20js/vista/)
