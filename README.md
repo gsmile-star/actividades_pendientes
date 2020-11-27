@@ -1,1 +1,4 @@
-<h1>actividad</h1>
+# Activades de clase
+
+El proyecto contiene los ejercicios propuestos en clase
+
