@@ -1,0 +1,1 @@
+export const strikethroughStyle = [cross_out_circle];
